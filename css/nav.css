@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@500&family=Nova+Cut&display=swap');
+.navbar{
+    background-color: #E2B30B;
+    
+    /* background-image: url("../images/back.png"); */
+}
+nav .navbar-nav li a{
+    color: black !important;
+    font-family: 'Mali', cursive;
+    }
+    nav .navbar-nav li a:hover{
+        color: white !important;
+        font-family: 'Mali', cursive;
+        }
+      
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Nova Cut', cursive;
+    color: black;
+ }   
+ .navbar-brand:hover{
+    color: white;
+ }
+ .btn{
+    background-color: black;
+    border-radius: 18px;
+    color:#E2B30B;
+    font-family: 'Mali', cursive;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+ }
+ .btn:hover{
+    border-radius: 18px;
+    color:#E2B30B;
+    font-family: 'Mali', cursive;
+ }

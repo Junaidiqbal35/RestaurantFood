@@ -1,0 +1,124 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <div class="carousel-caption d-flex">
+                    <div class="col-md-6 headtext">
+                        <h1 class="mb-3">Nothing brings people together like good food...</h1>
+                        <h4 class="mb-3">A great restaurant is one that just makes you feel like you're not sure whether
+                            you went out
+                            or you came home and confuses you. If it can do both of those things at the same time,
+                            you're hooked.</h4>
+                        <button type="button" id="headbtn" class="btn">Yummy Food</button>
+                    </div>
+
+                </div>
+                <img src="{% static 'images/food4.jpg' %}" class="d-block w-100" height="700" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <div class="carousel-caption align-items-center d-flex">
+                    <div class="htext">
+                        <h3>Nothing brings people together like good food...</h3>
+                        <p>A great restaurant is one that just makes you feel like you're not sure whether you went out
+                            or you came home and confuses you. If it can do both of those things at the same time,
+                            you're hooked.</p>
+                        <button type="button" id="headbtn" class="btn">Yummy Food</button>
+                    </div>
+
+                </div>
+                <img src="{% static 'images/food8.jpg' %}" class="d-block w-100" height="700" alt="...">
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption align-items-center d-flex">
+                    <div class="htext">
+                        <h3>Nothing brings people together like good food...</h3>
+                        <p>A great restaurant is one that just makes you feel like you're not sure whether you went out
+                            or you came home and confuses you. If it can do both of those things at the same time,
+                            you're hooked.</p>
+                        <button type="button" id="headbtn" class="btn">Yummy Food</button>
+                    </div>
+
+                </div>
+                <img src="{% static 'images/food9.jpg' %}" class="d-block w-100" height="700" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <h1 class="text-center best">BEST FOOD IN TOWN</h1>
+    <div class="food">
+        <div class="row justify-content-evenly">
+            <div class="col-md-3">
+                <h3 class="text-center" id="burger">Burger's</h3>
+                <div class="c1">
+
+                </div>
+                <p id="pdetail">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic veniam, maiores praesentium vitae vel
+                    consectetur mollitia dolorem voluptate sequi animi incidunt quisquam labore quibusdam ipsum!
+                    Recusandae culpa commodi quam nisi.
+                </p>
+                <button class="btn mt-4 center" type="submit" id="headbtn">Taste it!</button>
+            </div>
+
+            <div class="col-md-3">
+                <h3 class="text-center mt-4">Pizza's</h3>
+                <div class="c2">
+
+                </div>
+                <p id="pdetail">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic veniam, maiores praesentium vitae vel
+                    consectetur mollitia dolorem voluptate sequi animi incidunt quisquam labore quibusdam ipsum!
+                    Recusandae culpa commodi quam nisi.
+                </p>
+                <button class="btn mt-4 center" type="submit" id="headbtn">Taste it!</button>
+            </div>
+
+            <div class="col-md-3">
+                <h3 class="text-center" id="burger">Cocktails's</h3>
+                <div class="c3">
+
+                </div>
+                <p id="pdetail">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic veniam, maiores praesentium vitae vel
+                    consectetur mollitia dolorem voluptate sequi animi incidunt quisquam labore quibusdam ipsum!
+                    Recusandae culpa commodi quam nisi.
+                </p>
+                <button class="btn mt-4 center" type="submit" id="headbtn">Taste it!</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-5">
+        <div class="col-md-5">
+            <img src="{% static 'images/chine.png' %}" alt="error loading" class="img-fluid" id="chine">
+
+        </div>
+        <div class="col-md-5 align-self-center chine">
+            <h2 class="mt-4">
+                Chineese Food
+            </h2>
+            <h5 class="mt-4">
+                A great restaurant is one that just makes you feel like you're not sure whether you went out or you
+                came home and confuses you. If it can do both of those things at the same time, you're hooked. Lorem,
+                ipsum dolor sit amet consectetur adipisicing elit. Nulla similique, inventore recusandae doloremque odio
+                soluta eligendi accusantium expedita voluptatibus nesciunt qui dolorum blanditiis ut tenetur rerum
+                aspernatur mollitia commodi. Sunt.
+            </h5>
+            <button class="btn mt-4" type="submit" id="headbtn">Taste it!</button>
+        </div>
+
+    </div>
+
+
+{% endblock content %}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@500&family=Nova+Cut&display=swap');
+footer{
+    background-color: #E2B30B!important;
+    font-family: 'Mali',cursive;
+
+}
+h5, p,td,span{
+    color:black;
+    font-weight: bolder;
+}
+li{
+    color: #E2B30B;
+}

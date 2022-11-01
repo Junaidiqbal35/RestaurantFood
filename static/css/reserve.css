@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@500&family=Nova+Cut&display=swap');
+body{
+    background-image: url("../images/reserve.png");
+    font-family: 'Mali',cursive;
+}
+h1{
+    font-weight: bolder;
+}
+.container{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: #ffffff69;
+    padding-bottom: 50px;
+    border-radius: 15px;
+}
+.form-label{
+    font-weight: bolder;
+}
+#res-btn{
+    background-color: #E2B30B;
+    border-radius: 18px;
+    color:black;
+    font-family: 'Mali', cursive;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    font-weight: bolder;
+ }
+#res-btn:hover{
+    color: white;
+ }
+ .center{
+    display: flex;
+    margin: auto;
+    justify-content: center;  /* Align Horizontally */
+    align-items: center; 
+}
+/* div{
+    margin: 0!important;
+    padding: 0!important;
+} */
+h2{
+    font-weight: bolder;
+    margin-left: 60px;
+}
+p{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: #463700;
+}
+.con1{
+    background-image: url('../images/con1.png');
+    height: 350px;
+   background-size: contain;
+   border-radius: 5px;
+   margin-left: 60px;
+   
+}
+.con2{
+    background-image: url('../images/con2.png');
+    height: 350px;
+   background-size: contain;
+   border-radius: 5px;
+   margin-right: 60px;
+}
+.con3{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-image: url('../images/con3.png');
+    height: 350px;
+   background-size: contain;
+   border-radius: 5px;
+   margin-right: 60px;
+   margin-left: 60px;
+}

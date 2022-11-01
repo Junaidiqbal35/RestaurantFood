@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@500&family=Nova+Cut&display=swap');
+
+body {
+    font-family: 'Mali', cursive;
+    background-image: url("../images/back.png");
+background-size: contain;
+background-color: black;
+overflow-x: hidden;
+font-weight: bold;
+}
+.carousel-caption{
+    transform: translateY(-50%) ;
+    bottom: initial;
+    top: 45%;
+    color: #E2B30B;
+    
+}
+.headtext{
+background-color: rgba(255, 255, 255, 0.292);
+padding: 30px;
+border-radius: 15px;
+text-align: left;
+}
+.headtext h1{
+    color: black;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px rgb(67, 62, 5), 0 0 1em #E2B30B, 0 0 0.2em #E2B30B;
+}
+.headtext h4{
+    color: #E2B30B;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+}
+.htext h3{
+    color: #E2B30B;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+}
+.htext p{
+    color: #E2B30B;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+}
+#headbtn:hover{
+color: white;
+border: solid 1px #E2B30B;
+}
+.center{
+    display: flex;
+    margin: auto;
+    justify-content: center;  /* Align Horizontally */
+    align-items: center; 
+}
+.best{
+    
+    margin-top: 150px;
+    color: #000000;
+    font-weight: bold;
+    /* text-shadow: 1px 1px 2px #000000, 0 0 1em #E2B30B, 0 0 0.2em rgb(0, 0, 0); */
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+.food {
+    margin-bottom: 50px;
+    margin-top: 100px;
+    background-color: #E2B30B;
+    padding-bottom: 50px;
+    /* background-image: url("../images/bg3.png"); */
+}
+#burger{
+    margin-top: 80px;
+}
+#pdetail{
+    margin-top: 20px;
+    text-align: center;
+}
+.c1 {
+    margin-top: 20px;
+    height: 400px;
+    /* width: 300px; */
+    color: black;
+    background-color: rgba(0, 0, 0, 0.353);
+    border-radius: 15px;
+    background-image: url('../images/burger.jpg');
+    background-clip: border-box;
+    background-size: 100% 400px;
+    border: 2px solid #E2B30B;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.c2 {
+    margin-top: 20px;
+    height: 400px;
+    /* width: 300px; */
+    color: black;
+    background-color: black;
+    border-radius: 15px;
+    background-image: url('../images/pizza.jpg');
+    background-clip: border-box;
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    border: 2px solid #E2B30B;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.c3 {
+    margin-top: 20px;
+    height: 400px;
+    /* width: 300px; */
+    color: black;
+    background-color: black;
+    border-radius: 15px;
+    background-image: url('../images/drink.jpg');
+    background-clip: border-box;
+    background-size: 100% 400px;
+    border: 2px solid #E2B30B;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.c3:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, #E2B30B 0px 18px 36px -18px inset;
+}
+.c2:hover{
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, #E2B30B 0px 18px 36px -18px inset;
+}
+.c1:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, #E2B30B 0px 18px 36px -18px inset;
+}
+#chine{
+    margin-top: 100px;
+}
+.chine{
+    margin-left: 50px;
+    text-align: left;
+}
+.chine h2{
+    color: black;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px rgb(67, 62, 5), 0 0 1em #E2B30B, 0 0 0.2em #E2B30B;
+}
+.chine h5{
+    color: #E2B30B;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+}

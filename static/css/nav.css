@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mali:wght@500&family=Nova+Cut&display=swap');
 .navbar{
     background-color: #E2B30B;
-    
+    overflow-x: hidden;
     /* background-image: url("../images/back.png"); */
 }
 nav .navbar-nav li a{
@@ -34,3 +34,9 @@ nav .navbar-nav li a{
     color:#E2B30B;
     font-family: 'Mali', cursive;
  }
+ #sign{
+   background-color: #e1bf43;
+   border-radius: 20px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+   padding: 2px;
+}

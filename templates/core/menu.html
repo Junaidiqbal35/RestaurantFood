@@ -1,13 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="menu.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <title>Menu</title>
+    <link rel="stylesheet" href="./css/menu.css">
 </head>
+
 <body>
-    
+
+    <ul class="nav fixed-top nav-pills" id="pills-tab" role="tablist">
+
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                type="button" role="tab" aria-controls="pills-home" aria-selected="true">Starter</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-pizza-tab" data-bs-toggle="pill" data-bs-target="#pills-pizza"
+                type="button" role="tab" aria-controls="pills-pizza" aria-selected="false">Pizza's</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-burger-tab" data-bs-toggle="pill" data-bs-target="#pills-burger"
+                type="button" role="tab" aria-controls="pills-burger" aria-selected="false">Burger's</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-chineese-tab" data-bs-toggle="pill" data-bs-target="#pills-chineese"
+                type="button" role="tab" aria-controls="pills-chineese" aria-selected="false">Chineese</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-cocktail-tab" data-bs-toggle="pill" data-bs-target="#pills-cocktail"
+                type="button" role="tab" aria-controls="pills-cocktail" aria-selected="false">Cocktail's</button>
+        </li>
+    </ul>
+    <div class="tab-content ms-auto" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row justify-content-evenly">
+                <div class="col-md-3" id="mitem">
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/orange.jpg" alt="">
+                        <div class="bottom-left">DOMAINE DU MORTIER<br>$13.00</div>
+                    </div>
+                </div>
+
+                <div class="col-md-3" id="mitem">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/plum.jpg" alt="">
+                        <div class="bottom-left">REFRESHING FRUITS<br>$23.00</div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3" id="mitem">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/strawberry.jpg" alt="">
+                        <div class="bottom-left">CRISPY TIKKI'S<br>$20.00</div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row justify-content-evenly mt-5 mb-5">
+                <div class="col-md-3">
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/banana.jpg" alt="">
+                        <div class="bottom-left">SMOKED SALMON PLATTER<br>$33.00</div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/grapes.jpg" alt="">
+                        <div class="bottom-left">PAPADUM STACKS<br>$22.00</div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/lime.jpg" alt="">
+                        <div class="bottom-left">ULTIMATE CHEESE CAKE<br>$25.00</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="tab-pane fade" id="pills-pizza" role="tabpanel" aria-labelledby="pills-pizza-tab">
+            <div class="row justify-content-evenly">
+                <div class="col-md-3" id="mitem">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/pizza.jpg" alt="">
+                        <div class="bottom-left">QUATTRO FORMAGGI<br>$35.00</div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3" id="mitem">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/piz1.jpg" alt="">
+                        <div class="bottom-left">MALTESE<br>$30.00</div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3" id="mitem">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/piz2.jpg" alt="">
+                        <div class="bottom-left">TARTE FLAMBEE<br>$40.00</div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row justify-content-evenly mt-5 mb-5">
+                <div class="col-md-3">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/piz3.jpg" alt="">
+                        <div class="bottom-left">WHITE CLAM PIE<br>$45.00</div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/piz4.jpg" alt="">
+                        <div class="bottom-left">WORLD'S MOST EXPENSIVE<br>$55.00</div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/piz5.jpg" alt="">
+                        <div class="bottom-left">FRUTTI DE MARE<br>$50.00</div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="tab-pane fade" id="pills-burger" role="tabpanel" aria-labelledby="pills-burger-tab">
+            <div class="row justify-content-evenly">
+                <div class="col-md-3" id="mitem">
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/burger.jpg" alt="">
+                        <div class="bottom-left">OZ. BURGER<br>$14.00</div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3" id="mitem">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/bug1.jpg" alt="">
+                        <div class="bottom-left">THE YANKEE<br>$14.00</div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3" id="mitem">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/bug2.jpg" alt="">
+                        <div class="bottom-left">BB BURGER<br>$16.00</div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row justify-content-evenly mt-5 mb-5">
+                <div class="col-md-3">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/bug3.jpg" alt="">
+                        <div class="bottom-left">EL DOBLE<br>$11.00</div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/bug4.jpg" alt="">
+                        <div class="bottom-left">BLACK LABEL BURGER<br>$26.00</div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/bug5.jpg" alt="">
+                        <div class="bottom-left">CHEESE BURGER<br>$15.00</div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="tab-pane fade" id="pills-chineese" role="tabpanel" aria-labelledby="pills-chineese-tab">
+            <div class="row justify-content-evenly">
+                <div class="col-md-3" id="mitem">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/chineese.jpg" alt="">
+                        <div class="bottom-left">STIR FRIED TOFU WITH RICE<br>$25.00</div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3" id="mitem">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/chi1.jpg" alt="">
+                        <div class="bottom-left">VEG HAKKA NOODLES<br>$20.00</div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3" id="mitem">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/chi2.jpg" alt="">
+                        <div class="bottom-left">BUDDHA NOODLES<br>$23.00</div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row justify-content-evenly mt-5 mb-5">
+                <div class="col-md-3">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/chi3.jpg" alt="">
+                        <div class="bottom-left">WONTON SOUP<br>$25.00</div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/chi4.jpg" alt="">
+                        <div class="bottom-left">STICKY ORANGE CHICKEN<br>$20.00</div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/chi5.jpg" alt="">
+                        <div class="bottom-left">LO MEIN<br>$23.00</div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="tab-pane fade" id="pills-cocktail" role="tabpanel" aria-labelledby="pills-cocktail-tab">
+            <div class="row justify-content-evenly">
+                <div class="col-md-3" id="mitem">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/drink.jpg" alt="">
+                        <div class="bottom-left">DAIQUIRI<br>$6.00</div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3" id="mitem">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/coc1.jpg" alt="">
+                        <div class="bottom-left">STRAWBERRY DAIQUIRI<br>$6.00</div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3" id="mitem">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/coc2.jpg" alt="">
+                        <div class="bottom-left">MOJITO<br>$5.00</div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row justify-content-evenly mt-5 mb-5">
+                <div class="col-md-3">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/coc3.jpg" alt="">
+                        <div class="bottom-left">BLUE LAGOON<br>$7.00</div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/coc4.jpg" alt="">
+                        <div class="bottom-left">CUBA LIBRE<br>$8.00</div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div id="m1">
+                        <img class="img-fluid" src="./images/coc5.jpg" alt="">
+                        <div class="bottom-left">BLOODY MARY<br>$6.00</div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

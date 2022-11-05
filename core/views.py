@@ -1,3 +1,4 @@
+from crispy_forms.templatetags.crispy_forms_filters import as_crispy_field
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import render, redirect
 
@@ -12,6 +13,7 @@ class TableReservationView(LoginRequiredMixin, CreateView):
     model = TableReservation
     form_class = ReservationForm
     template_name = 'core/reservation.html'
+
     # error_message = ' check fields below.'
 
     def form_valid(self, form):
@@ -19,3 +21,12 @@ class TableReservationView(LoginRequiredMixin, CreateView):
         form.save()
         return redirect('landing-page')
         # return super().form_valid(form)
+
+
+def check_time(request):
+    form = ReservationForm(request.GET)
+    context = {
+        'field': as_crispy_field(form['start_time']),
+        'valid': not form['start_time'].errors
+    }
+    return render(request, 'partials/field.html', context)

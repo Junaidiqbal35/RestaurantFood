@@ -14,14 +14,21 @@
     <h1 class="text-center mt-5">Reserve your Table</h1>
 
     <div class="container">
+
         <form action="." method="post">
             {% csrf_token %}
         <div class="row justify-content-evenly">
+               {%  if form.errors %}
+                {% else %}
+                {% endif %}
+            <div class="col-md-4"></div>
             <div class="col-md-4">
                 <div class="mt-4 mb-3">
+                    {{ form | crispy }}
+
 {#                    <label class="form-label" for="inputText">Name:</label>#}
 {#                    <input type="text" class="form-control" id="inputText" placeholder="Full name">#}
-                    {{ form.full_name|as_crispy_field }}
+{#                    {{ form.full_name|as_crispy_field }}#}
 
                 </div>
             </div>
@@ -29,7 +36,7 @@
                 <div class="mt-4 mb-3">
 {#                    <label class="form-label" for="inputText">Persons:</label>#}
 {#                    <input type="number" class="form-control" id="inputText" placeholder="ex: 08">#}
-                    {{ form.table|as_crispy_field  }}
+{#                    {{ form.table|as_crispy_field  }}#}
                 </div>
             </div>
         </div>
@@ -38,14 +45,14 @@
                 <div class="mt-4 mb-3">
 {#                    <label class="form-label" for="inputEmail">Email:</label>#}
 {#                    <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email">#}
-                      {{ form.booking_date|as_crispy_field  }}
+{#                      {{ form.booking_date|as_crispy_field  }}#}
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="mt-4 mb-3">
 {#                    <label class="form-label" for="inputText">Phone no:</label>#}
 {#                    <input type="tel" class="form-control" id="inputText" placeholder="ex: +33300111222">#}
-                      {{ form.start_time|as_crispy_field  }}
+{#                      {{ form.start_time|as_crispy_field  }}#}
                 </div>
             </div>
         </div>

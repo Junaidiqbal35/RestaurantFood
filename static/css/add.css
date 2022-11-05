@@ -15,3 +15,8 @@ font-weight: bolder;
     font-weight:bolder;
     
 }
+@media (max-width:900px) {
+    #add-items{
+        padding: 0;
+    }
+}

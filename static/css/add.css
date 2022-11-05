@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@500&family=Nova+Cut&display=swap');
+body{
+    font-family: 'Mali', cursive;
+    overflow-x: hidden;
+}
+#add-items{
+    background-color: #e2b30b6a;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+#add-tems h5{
+font-weight: bolder;
+}
+#add-items p{
+    font-weight:bolder;
+    
+}

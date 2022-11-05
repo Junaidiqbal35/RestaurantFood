@@ -1,3 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@500&family=Nova+Cut&display=swap');
 body{
-    background-image: url(../images/reserve.png);
+    font-family: 'Mali', cursive;
+    background-image: url("../images/reserve.png");
+    overflow-x: hidden;
 }
+
+#pills-tab{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #9a8953;
+   
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: black;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.nav-link:hover {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #E2B30B;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: rgb(255, 255, 255);
+    background-color:#E2B30B;
+}
+.center{
+    display: flex;
+    margin: auto;
+    justify-content: center;  
+    align-items: center; 
+}
+#headbtn{
+    color: white;
+    background-color: #000;
+    border-radius: 15px;
+}
+#headbtn:hover{
+    color: white;
+    border: solid 2px #E2B30B;
+    }
+#mitem{
+    margin-top: 80px;
+}
+#pdetail{
+    margin-top: 20px;
+    text-align: center;
+}
+#m1{
+    margin-top: 20px;
+    height: 400px;
+    /* width: 300px; */
+    color: black;
+    background-color: rgba(0, 0, 0, 0.353);
+    border-radius: 15px;
+    border: 3px solid #E2B30B;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#m1 img{
+    height: 400px;
+    width: 100%;
+    border-radius: 15px;
+}
+#m1:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, #E2B30B 0px 18px 36px -18px inset;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.504);
+  }

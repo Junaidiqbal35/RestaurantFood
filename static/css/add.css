@@ -15,6 +15,9 @@ font-weight: bolder;
     font-weight:bolder;
     
 }
+.res-btn{
+    background-color: #E2B30B;
+    }
 @media (max-width:900px) {
     #add-items{
         padding: 0;

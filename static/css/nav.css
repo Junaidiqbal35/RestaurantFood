@@ -13,12 +13,12 @@ nav .navbar-nav li a{
         color: white !important;
         font-family: 'Mali', cursive;
         }
-      
+
 .navbar-brand{
     font-size: 2rem;
     font-family: 'Nova Cut', cursive;
     color: black;
- }   
+ }
  .navbar-brand:hover{
     color: white;
  }
@@ -39,4 +39,7 @@ nav .navbar-nav li a{
    border-radius: 20px;
    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
    padding: 2px;
+}
+.navbar-toggler-icon{
+background-color: black;
 }

@@ -7,36 +7,36 @@ body{
 
 #pills-tab{
     display: flex;
-    
+
     justify-content: center;
     align-items: center;
     font-size: 1.3rem;
     background-color: #9a8953;
-   
+
 }
-.nav-link {
+.nav-pills .nav-link {
     display: block;
     padding: 0.5rem 1rem;
-    color: black;
+    color: black!important;
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 .nav-link:hover {
     display: block;
     padding: 0.5rem 1rem;
-    color: #E2B30B;
+    color: #E2B30B!important;
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-    color: rgb(255, 255, 255);
-    background-color:#E2B30B;
+    color: rgb(255, 255, 255)!important;
+    background-color:#E2B30B!important;
 }
 .center{
     display: flex;
     margin: auto;
-    justify-content: center;  
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
 }
 #headbtn{
     color: white;
@@ -73,7 +73,8 @@ body{
     border-radius: 15px;
 }
 #m1:hover{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, #E2B30B 0px 18px 36px -18px inset;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
 }
 .bottom-left {
     position: absolute;

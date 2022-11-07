@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load crispy_forms_filters %}
+{% load static %}
+{% block head %}
+
+     <link rel="stylesheet" href="{% static 'css/reserve.css' %}">
+    {% block title %}
+        <title>Success| Reservation</title>
+    {% endblock title %}
+{% endblock head %}
+</head>
+
+{% block content %}
+    <h1 class="text-center mt-5">Reservation</h1>
+
+    <div class="container">
+        <strong class="lead"> Your Reservation Send to Restaurant, You will get a email if reservation approved.  </strong>
+    </div>
+
+{% endblock content %}

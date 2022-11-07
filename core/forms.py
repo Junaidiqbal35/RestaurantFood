@@ -21,7 +21,7 @@ class ReservationForm(forms.ModelForm):
 
     class Meta:
         model = TableReservation
-        fields = ['full_name', 'table', 'booking_date', 'start_time']
+        fields = ['full_name', 'table', 'email', 'booking_date', 'start_time']
 
     def clean(self):
         super().clean()
@@ -36,8 +36,9 @@ class ReservationForm(forms.ModelForm):
 
         if available_slot:
             if start_time.hour not in available_slot:
+                av_slot = 'pm '.join(str(item) for item in available_slot)
                 # if `subscribe` is checked but there is no email we raise an error
-                message = f"Requested slot is already booked, please choose another time in {available_slot} pm."
+                message = f"Requested slot is already booked, please choose another time in {av_slot}."
                 print(message)
                 raise forms.ValidationError(message)
 

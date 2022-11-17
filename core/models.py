@@ -1,6 +1,8 @@
 # Create your models here.
 from django.contrib.auth.models import User
 from django.db import models
+from django.dispatch import receiver
+from fieldsignals import pre_save_changed
 
 
 class MenuCategory(models.Model):
@@ -42,3 +44,6 @@ class TableReservation(models.Model):
     def __str__(self):
         return f'Table Number {self.table}. Booked by {self.user}' \
                f'people, for the {self.booking_date} at {self.start_time}. Status {self.approved}'
+
+
+

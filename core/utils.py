@@ -17,6 +17,11 @@ def check_free_time(time_slot: list, exist_list: list):
     return remain_slot
 
 #
-# time_slot = [3, 4, 6, 7, 2]
-# exist_list = [2, 3, 4, 6, 7]
-# print(check_free_time(time_slot, exist_list))
+# def send_reservation_approval_email(email):
+#     send_mail(
+#         'Reservation Approved.',
+#         'your reservation is get approved ',
+#         'from@example.com',
+#         ['to@example.com'],
+#         fail_silently=False,
+#     )
